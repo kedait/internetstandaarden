@@ -1,0 +1,135 @@
+/* Algemene styling */
+
+.primary-button {
+    background: #2A9DEA;
+    border-radius: 0.5rem;
+    color: #F4F4F4;
+}
+
+/* Homepagina */
+* {
+    box-sizing: border-box;
+}
+
+nav a {
+    transition: all 0.2s ease;
+}
+
+.afleveringen:hover {
+    transform: scale(2)
+}
+
+.hoi {
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+}
+
+section {
+    margin-top: 3em;
+}
+
+section img {
+    transition: all 1s ease-out;
+}
+
+section img:hover {
+    transform: rotate(-45deg);
+}
+
+body {
+    background-color: rgb(227, 242, 246);
+    font-family: "ivystyle-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body main {
+    margin-left: 1em;
+}
+
+nav {
+    background-color: lightblue;
+    padding: 1em;
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    padding: 1em 1.5em;
+    text-decoration: none;
+    color: black;
+    font-family: "ivystyle-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+li a:hover {
+    background-color: mediumaquamarine;
+}
+
+.primary-button {
+    transition: all 1s ease-out;
+    background-color: #FAB629;
+    padding: 0.5em 3em;
+    margin-bottom: 10em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+}
+
+.primary-button:hover {
+    transform: rotate(45deg);
+    background-color: #2A9DEA;
+}
+
+/* Over ons pagina */
+.inleiding {
+    background-color: skyblue;
+}
+
+section ul {
+    display: flex;
+}
+
+section ul li {
+    flex-grow: 2;
+    margin: 2em;
+    padding: 1em;
+    background-color: violet;
+}
+
+/* Afleveringen */
+
+.afleveringen-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.afleveringen-container li {
+    display: flex;
+    max-width: 1000px;
+}
+
+.afleveringen-container li > img {
+    width: 200px;
+    margin-right: 2em;
+}
+
+div {
+    float: left;
+}
+
+.doosjes {
+    background-color: gray;
+}
