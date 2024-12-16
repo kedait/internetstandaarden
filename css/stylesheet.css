@@ -33,15 +33,19 @@
     color: #F4F4F4;
 }
 
-footer ul {
-    background-color: #004159;
-    width: 100%;
+footer {
+    padding-top: 5em;
 }
 
 footer ul {
     display: flex;
     gap: 15em;
     list-style-type: square;
+    padding-top: 7em;
+    padding-bottom: 5em;
+    padding-left: 60px;
+    background-color: #004159;
+    width: 100%;
 }
 
 footer h2 {
@@ -260,6 +264,11 @@ section ul li {
     padding: 1em;
 }
 
+.ontstaan {
+    padding-right: 50em;
+    margin-left: 54px;
+}
+
 .wij span {
     display: flex;
     justify-content: center;
@@ -268,9 +277,14 @@ section ul li {
 .ons-doel {
     padding-right: 50em;
     margin-left: 54px;
+    padding-bottom: 5em;
 }
 
 /* Afleveringen */
+
+.afleveringen-intro {
+    padding-top: 5em;
+}
 
 .afleveringen-container {
     display: flex;
